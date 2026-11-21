@@ -1,0 +1,8 @@
+# Sözleşme dosyaları mobil uygulamayı ve içerik reposunu etkiler.
+# Bu dosyaları değiştiren pull request'ler frontend onayı olmadan birleşmez.
+# Frontend ekibi bu repoya eklenince kullanıcı adları buraya eklenir.
+
+/openapi.json        @Hasmolam
+/API-SOZLESMESI.md   @Hasmolam
+/content.schema.json @Hasmolam
+/.github/CODEOWNERS  @Hasmolam
