@@ -1,6 +1,6 @@
-# coding-game-api
+# algolotl-api
 
-Python öğreten, oyunlaştırılmış kodlama uygulamasının API'si. Proje adı henüz seçilmedi, repo adı geçicidir.
+Algolotl'un API'si. Algolotl, Python öğreten oyunlaştırılmış bir kodlama uygulaması.
 
 ## Kim neye karar verir
 
@@ -23,59 +23,59 @@ Proje başında verilen kararlar:
 
 ## Yol haritası
 
-İşler yukarıdan aşağıya sırayla ilerler. Aynı aşamadaki işler paralel yürüyebilir. Her işin ayrıntısı, ne zaman bitmiş sayılacağı ve hangi işe bağlı olduğu kendi issue'sunda yazar. Güncel durumu [Issues](https://github.com/Hasmolam/coding-game-api/issues) ve [Milestones](https://github.com/Hasmolam/coding-game-api/milestones) sayfalarından takip edin.
+İşler yukarıdan aşağıya sırayla ilerler. Aynı aşamadaki işler paralel yürüyebilir. Her işin ayrıntısı, ne zaman bitmiş sayılacağı ve hangi işe bağlı olduğu kendi issue'sunda yazar. Güncel durumu [Issues](https://github.com/Hasmolam/algolotl-api/issues) ve [Milestones](https://github.com/Hasmolam/algolotl-api/milestones) sayfalarından takip edin.
 
 ### 1 · Kurulum
 
 Herkesin aynı şekilde çalıştığı iskelet, yerel ortam ve otomatik kontroller.
 
-- [#1 Proje iskeletini kur ve teknik kararları README'ye yaz](https://github.com/Hasmolam/coding-game-api/issues/1)
-- [#2 Docker Compose ile yerel geliştirme ortamı](https://github.com/Hasmolam/coding-game-api/issues/2)
-- [#3 CI: her PR'da lint, test ve sözleşme kontrolü](https://github.com/Hasmolam/coding-game-api/issues/3)
+- [#1 Proje iskeletini kur ve teknik kararları README'ye yaz](https://github.com/Hasmolam/algolotl-api/issues/1)
+- [#2 Docker Compose ile yerel geliştirme ortamı](https://github.com/Hasmolam/algolotl-api/issues/2)
+- [#3 CI: her PR'da lint, test ve sözleşme kontrolü](https://github.com/Hasmolam/algolotl-api/issues/3)
 
 ### 2 · Ortak sözleşme
 
 Kod yazılmadan önce mobil ve API'nin ortak dili belirlenir.
 
-- [#4 Sözleşme kurallarını frontend ile birlikte kesinleştir](https://github.com/Hasmolam/coding-game-api/issues/4)
-- [#5 MVP endpoint'lerinin sözleşmesi: şemalar, boş endpoint'ler ve openapi.json](https://github.com/Hasmolam/coding-game-api/issues/5)
+- [#4 Sözleşme kurallarını frontend ile birlikte kesinleştir](https://github.com/Hasmolam/algolotl-api/issues/4)
+- [#5 MVP endpoint'lerinin sözleşmesi: şemalar, boş endpoint'ler ve openapi.json](https://github.com/Hasmolam/algolotl-api/issues/5)
 
 ### 3 · Temel
 
 Veritabanı, içerik şeması, kimlik doğrulama ve test ortamı.
 
-- [#6 Veritabanı kuralları ve ilk migration](https://github.com/Hasmolam/coding-game-api/issues/6)
-- [#7 İçerik şeması ve content.schema.json](https://github.com/Hasmolam/coding-game-api/issues/7)
-- [#8 Kimlik doğrulama: kayıt, giriş, token yenileme, çıkış](https://github.com/Hasmolam/coding-game-api/issues/8)
-- [#9 Sağlık kontrolü ve uygulama ayarları endpoint'i](https://github.com/Hasmolam/coding-game-api/issues/9)
-- [#10 Test ortamına (staging) ilk yayın](https://github.com/Hasmolam/coding-game-api/issues/10)
+- [#6 Veritabanı kuralları ve ilk migration](https://github.com/Hasmolam/algolotl-api/issues/6)
+- [#7 İçerik şeması ve content.schema.json](https://github.com/Hasmolam/algolotl-api/issues/7)
+- [#8 Kimlik doğrulama: kayıt, giriş, token yenileme, çıkış](https://github.com/Hasmolam/algolotl-api/issues/8)
+- [#9 Sağlık kontrolü ve uygulama ayarları endpoint'i](https://github.com/Hasmolam/algolotl-api/issues/9)
+- [#10 Test ortamına (staging) ilk yayın](https://github.com/Hasmolam/algolotl-api/issues/10)
 
 ### 4 · İçerik
 
 İçerik reposundaki derslerin API'ye aktarılması ve sunulması.
 
-- [#11 İçerik içe aktarma komutu](https://github.com/Hasmolam/coding-game-api/issues/11)
-- [#12 İçerik endpoint'leri: yol, ünite ve dersler](https://github.com/Hasmolam/coding-game-api/issues/12)
+- [#11 İçerik içe aktarma komutu](https://github.com/Hasmolam/algolotl-api/issues/11)
+- [#12 İçerik endpoint'leri: yol, ünite ve dersler](https://github.com/Hasmolam/algolotl-api/issues/12)
 
 ### 5 · Öğrenme akışı
 
 Ders sonucu, ilerleme, XP, seri, sıralama ve hesap işlemleri.
 
-- [#13 Ders sonucu gönderimi ve ilerleme](https://github.com/Hasmolam/coding-game-api/issues/13)
-- [#14 XP ve günlük seri](https://github.com/Hasmolam/coding-game-api/issues/14)
-- [#15 Haftalık sıralama](https://github.com/Hasmolam/coding-game-api/issues/15)
-- [#16 Şifre sıfırlama ve hesap silme](https://github.com/Hasmolam/coding-game-api/issues/16)
+- [#13 Ders sonucu gönderimi ve ilerleme](https://github.com/Hasmolam/algolotl-api/issues/13)
+- [#14 XP ve günlük seri](https://github.com/Hasmolam/algolotl-api/issues/14)
+- [#15 Haftalık sıralama](https://github.com/Hasmolam/algolotl-api/issues/15)
+- [#16 Şifre sıfırlama ve hesap silme](https://github.com/Hasmolam/algolotl-api/issues/16)
 
 ### 6 · Yayına hazırlık
 
 Güvenlik kontrolü, izleme ve yedek.
 
-- [#17 Güvenlik gözden geçirmesi](https://github.com/Hasmolam/coding-game-api/issues/17)
-- [#18 İzleme, hata takibi ve yedek](https://github.com/Hasmolam/coding-game-api/issues/18)
+- [#17 Güvenlik gözden geçirmesi](https://github.com/Hasmolam/algolotl-api/issues/17)
+- [#18 İzleme, hata takibi ve yedek](https://github.com/Hasmolam/algolotl-api/issues/18)
 
 ## Teknik kararlar
 
-Henüz yazılmadı. Backend ekibi [#1](https://github.com/Hasmolam/coding-game-api/issues/1) ile doldurur.
+Henüz yazılmadı. Backend ekibi [#1](https://github.com/Hasmolam/algolotl-api/issues/1) ile doldurur.
 
 ## Güvenlik kuralları
 
