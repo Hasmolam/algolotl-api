@@ -1,6 +1,6 @@
 # API sözleşmesi
 
-> **Taslak.** Bu belge backend ve frontend tarafından [#4](https://github.com/Hasmolam/coding-game-api/issues/4) üzerinde birlikte kesinleştirilecek. Kesinleşince bu not kaldırılır.
+> **Taslak.** Bu belge backend ve frontend tarafından [#4](https://github.com/Hasmolam/algolotl-api/issues/4) üzerinde birlikte kesinleştirilecek. Kesinleşince bu not kaldırılır.
 
 Bu belge mobil uygulama ile API'nin ortak dilidir. İki taraf da buna göre kod yazar, böylece biri diğerini beklemeden çalışabilir ve sonradan uyumsuzluk çıkmaz.
 
@@ -108,7 +108,7 @@ Hata kodları:
 | `GET /v1/me/lesson-attempts` | Ders geçmişi, sayfalı | G-07 |
 | `GET /v1/leaderboards/weekly` | Haftalık sıralama: ilk N kişi ve kullanıcının kendi sırası | G-10 |
 
-Ayrıntılı istek ve yanıt şekilleri [#5](https://github.com/Hasmolam/coding-game-api/issues/5) ile `openapi.json` dosyasına yazılacak.
+Ayrıntılı istek ve yanıt şekilleri [#5](https://github.com/Hasmolam/algolotl-api/issues/5) ile `openapi.json` dosyasına yazılacak.
 
 ## Değişiklik önermek
 
